@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3A6A202A9AD94100C294A9 /* ChultraInt3404.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE3A6A1E2A9AD94100C294A9 /* ChultraInt3404.cpp */; };
+		EE3A6A212A9AD94100C294A9 /* ChultraInt3404.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EE3A6A1F2A9AD94100C294A9 /* ChultraInt3404.hpp */; };
+		EE8DA0C22A93F8DB00C92EF1 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8DA0C12A93F8DB00C92EF1 /* libkmod.a */; };
+		EE8DA0C62A93FEBA00C92EF1 /* ChultraInt3400.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE8DA0C42A93FEBA00C92EF1 /* ChultraInt3400.cpp */; };
+		EE8DA0C72A93FEBA00C92EF1 /* ChultraInt3400.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EE8DA0C52A93FEBA00C92EF1 /* ChultraInt3400.hpp */; };
+		EEB87E852A9A6E4000113DBD /* ChultraThermal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEB87E832A9A6E4000113DBD /* ChultraThermal.cpp */; };
+		EEB87E862A9A6E4000113DBD /* ChultraThermal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EEB87E842A9A6E4000113DBD /* ChultraThermal.hpp */; };
+		EEB87E8A2A9A7AC000113DBD /* ChultraInt3403.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEB87E882A9A7ABF00113DBD /* ChultraInt3403.cpp */; };
+		EEB87E8B2A9A7AC000113DBD /* ChultraInt3403.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EEB87E892A9A7ABF00113DBD /* ChultraInt3403.hpp */; };
+		EEB87E902A9A7D7B00113DBD /* AcpiUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EEB87E8E2A9A7D7B00113DBD /* AcpiUtils.hpp */; };
+		EEB87E942A9AB32500113DBD /* AcpiUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEB87E932A9AB32500113DBD /* AcpiUtils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE3A6A1E2A9AD94100C294A9 /* ChultraInt3404.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChultraInt3404.cpp; sourceTree = "<group>"; };
+		EE3A6A1F2A9AD94100C294A9 /* ChultraInt3404.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChultraInt3404.hpp; sourceTree = "<group>"; };
+		EE8DA0B22A93F79900C92EF1 /* ChultraDPTF.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChultraDPTF.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8DA0B92A93F79900C92EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8DA0C12A93F8DB00C92EF1 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = usr/lib/libkmod.a; sourceTree = SDKROOT; };
+		EE8DA0C42A93FEBA00C92EF1 /* ChultraInt3400.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChultraInt3400.cpp; sourceTree = "<group>"; };
+		EE8DA0C52A93FEBA00C92EF1 /* ChultraInt3400.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChultraInt3400.hpp; sourceTree = "<group>"; };
+		EE8DA0D22A95D57900C92EF1 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		EEB87E832A9A6E4000113DBD /* ChultraThermal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChultraThermal.cpp; sourceTree = "<group>"; };
+		EEB87E842A9A6E4000113DBD /* ChultraThermal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChultraThermal.hpp; sourceTree = "<group>"; };
+		EEB87E882A9A7ABF00113DBD /* ChultraInt3403.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChultraInt3403.cpp; sourceTree = "<group>"; };
+		EEB87E892A9A7ABF00113DBD /* ChultraInt3403.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChultraInt3403.hpp; sourceTree = "<group>"; };
+		EEB87E8E2A9A7D7B00113DBD /* AcpiUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AcpiUtils.hpp; sourceTree = "<group>"; };
+		EEB87E932A9AB32500113DBD /* AcpiUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AcpiUtils.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8DA0AF2A93F79900C92EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8DA0C22A93F8DB00C92EF1 /* libkmod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8DA0A82A93F79900C92EF1 = {
+			isa = PBXGroup;
+			children = (
+				EE8DA0B42A93F79900C92EF1 /* ChultraDPTF */,
+				EE8DA0B32A93F79900C92EF1 /* Products */,
+				EE8DA0C02A93F8DB00C92EF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8DA0B32A93F79900C92EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8DA0B22A93F79900C92EF1 /* ChultraDPTF.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8DA0B42A93F79900C92EF1 /* ChultraDPTF */ = {
+			isa = PBXGroup;
+			children = (
+				EE8DA0D12A95D53C00C92EF1 /* Includes */,
+				EE8DA0C42A93FEBA00C92EF1 /* ChultraInt3400.cpp */,
+				EE8DA0C52A93FEBA00C92EF1 /* ChultraInt3400.hpp */,
+				EEB87E882A9A7ABF00113DBD /* ChultraInt3403.cpp */,
+				EEB87E892A9A7ABF00113DBD /* ChultraInt3403.hpp */,
+				EE3A6A1E2A9AD94100C294A9 /* ChultraInt3404.cpp */,
+				EE3A6A1F2A9AD94100C294A9 /* ChultraInt3404.hpp */,
+				EEB87E832A9A6E4000113DBD /* ChultraThermal.cpp */,
+				EEB87E842A9A6E4000113DBD /* ChultraThermal.hpp */,
+				EE8DA0B92A93F79900C92EF1 /* Info.plist */,
+				EEB87E8E2A9A7D7B00113DBD /* AcpiUtils.hpp */,
+				EEB87E932A9AB32500113DBD /* AcpiUtils.cpp */,
+			);
+			path = ChultraDPTF;
+			sourceTree = "<group>";
+		};
+		EE8DA0C02A93F8DB00C92EF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8DA0C12A93F8DB00C92EF1 /* libkmod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE8DA0D12A95D53C00C92EF1 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				EE8DA0D22A95D57900C92EF1 /* Logger.h */,
+			);
+			path = Includes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE8DA0AD2A93F79900C92EF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB87E862A9A6E4000113DBD /* ChultraThermal.hpp in Headers */,
+				EEB87E902A9A7D7B00113DBD /* AcpiUtils.hpp in Headers */,
+				EE3A6A212A9AD94100C294A9 /* ChultraInt3404.hpp in Headers */,
+				EE8DA0C72A93FEBA00C92EF1 /* ChultraInt3400.hpp in Headers */,
+				EEB87E8B2A9A7AC000113DBD /* ChultraInt3403.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE8DA0B12A93F79900C92EF1 /* ChultraDPTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8DA0BC2A93F79900C92EF1 /* Build configuration list for PBXNativeTarget "ChultraDPTF" */;
+			buildPhases = (
+				EE8DA0AD2A93F79900C92EF1 /* Headers */,
+				EE8DA0AE2A93F79900C92EF1 /* Sources */,
+				EE8DA0AF2A93F79900C92EF1 /* Frameworks */,
+				EE8DA0B02A93F79900C92EF1 /* Resources */,
+				EE8DA0D32A96FBF800C92EF1 /* Archive */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChultraDPTF;
+			productName = ChultraSOF;
+			productReference = EE8DA0B22A93F79900C92EF1 /* ChultraDPTF.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8DA0A92A93F79900C92EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EE8DA0B12A93F79900C92EF1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EE8DA0AC2A93F79900C92EF1 /* Build configuration list for PBXProject "ChultraDPTF" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8DA0A82A93F79900C92EF1;
+			productRefGroup = EE8DA0B32A93F79900C92EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8DA0B12A93F79900C92EF1 /* ChultraDPTF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8DA0B02A93F79900C92EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE8DA0D32A96FBF800C92EF1 /* Archive */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Archive;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${PRODUCT_NAME}-${MODULE_VERSION}-DEBUG.zip",
+				"${TARGET_BUILD_DIR}/${PRODUCT_NAME}-${MODULE_VERSION}-RELEASE.zip",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\n\ndist=(\"$FULL_PRODUCT_NAME\")\nif [ -d \"$DWARF_DSYM_FILE_NAME\" ]; then dist+=(\"$DWARF_DSYM_FILE_NAME\"); fi\n\narchive=\"${PRODUCT_NAME}-${MODULE_VERSION}-$(echo $CONFIGURATION | tr /a-z/ /A-Z/).zip\"\nrm -rf *.zip\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\n  strip -x -T \"${EXECUTABLE_PATH}\" &>/dev/null || strip -x \"${EXECUTABLE_PATH}\"\nfi\nzip -qry -FS \"${archive}\" \"${dist[@]}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8DA0AE2A93F79900C92EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB87E942A9AB32500113DBD /* AcpiUtils.cpp in Sources */,
+				EE8DA0C62A93FEBA00C92EF1 /* ChultraInt3400.cpp in Sources */,
+				EE3A6A202A9AD94100C294A9 /* ChultraInt3404.cpp in Sources */,
+				EEB87E8A2A9A7AC000113DBD /* ChultraInt3403.cpp in Sources */,
+				EEB87E852A9A6E4000113DBD /* ChultraThermal.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE8DA0BA2A93F79900C92EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE8DA0BB2A93F79900C92EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				KERNEL_EXTENSION_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				KERNEL_FRAMEWORK_HEADERS = "$(PROJECT_DIR)/MacKernelSDK/Headers";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE8DA0BD2A93F79900C92EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChultraDPTF/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = "${MODULE_VERSION}";
+				MODULE_NAME = com.1Revenger1.ChultraDPTF;
+				MODULE_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1Revenger1.ChultraDPTF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		EE8DA0BE2A93F79900C92EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChultraDPTF/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = "${MODULE_VERSION}";
+				MODULE_NAME = com.1Revenger1.ChultraDPTF;
+				MODULE_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1Revenger1.ChultraDPTF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8DA0AC2A93F79900C92EF1 /* Build configuration list for PBXProject "ChultraDPTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8DA0BA2A93F79900C92EF1 /* Debug */,
+				EE8DA0BB2A93F79900C92EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8DA0BC2A93F79900C92EF1 /* Build configuration list for PBXNativeTarget "ChultraDPTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8DA0BD2A93F79900C92EF1 /* Debug */,
+				EE8DA0BE2A93F79900C92EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8DA0A92A93F79900C92EF1 /* Project object */;
+}
